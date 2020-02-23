@@ -1,0 +1,2 @@
+# Travel-agency
+This is a fully responsive website which contains a navigation bar,carousel with 4 images, cards, "About Us" section , a "Contact form" and a map. The form data will be stored in the database using PHP and MySql .It also contains the Admin Panel which is linked to CMS. If the admin logs in successfully he/she can view the "Contact Us" form data and also can add blogs to the website which can later be viewed in Blogs section.
