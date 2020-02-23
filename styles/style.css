@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  height: 6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.hamburger {
+  display: none;
+}
+
+.line {
+  width: 40px;
+  height: 7px;
+  background-color: #000;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.navigation {
+  transition: all 0.6s ease-in-out;
+  position: relative;
+  z-index: 9999;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 1rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.navigation.active {
+  left: 0;
+}
+
+
+.navigation ul .home:hover a {
+  color: red;
+}
+header .log,
+header .sign {
+  margin: 0 8px;
+}
+header .sign {
+  text-shadow: none;
+  border-radius: 4px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 3px solid #444857;
+  background: #444857;
+  color: white;
+  cursor: pointer;
+  text-decoration: none !important;
+  text-align: center;
+}
+header .sign a {
+  color: #fff;
+}
+header .log a {
+  color: #000;
+}
+header .log {
+  text-shadow: none;
+  border-radius: 4px;
+  padding: 0 30px;
+  font-size: 20px;
+  border: 3px solid #444857;
+  background: none;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+.sign:hover a {
+  text-decoration: none;
+}
+.log:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+header .sign:hover {
+  opacity: 0.8;
+}
+header .log:hover {
+  transition: all 0.5s;
+  background-color: #444857;
+}
+
+#about {
+  background-color: #e1f2fb;
+  width: auto;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+#about h1 {
+  padding: 2%;
+  text-align: center;
+}
+#about p {
+  padding: 0 2rem;
+  font-size: 25px;
+}
+#about .about-icons {
+  text-align: center;
+}
+
+.features-div {
+  text-align: center;
+  padding: 4rem 0;
+}
+.feature {
+  margin-bottom: 20px;
+  padding: 2rem 0;
+  transition: 0.5s;
+  border-radius: 10%;
+}
+.features-div .fas {
+  color: #c06c84;
+  margin-bottom: 2rem;
+}
+.feature:hover {
+  background: #f8b195;
+}
+.feature:hover .fas {
+  color: #f67280;
+}
+#contact {
+  padding-top: 50px;
+  text-align: center;
+  background: #21243d;
+}
+#contact .inner {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+#contact h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ffffdd;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.name,
+.email,
+.message {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: none;
+  border-bottom: 1px solid #a7e9af;
+  padding: 10px 6px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.name {
+  width: 100%;
+}
+.name::after {
+  content: "Hello world";
+}
+.email {
+  width: 100%;
+}
+
+.message {
+  border: 1px solid #a7e9af;
+  margin-top: 30px;
+  min-width: 100%;
+  max-width: 100%;
+  font-size: 24px;
+}
+#contact button {
+  border: 1px solid #a0ffe6;
+  background: none;
+  color: #a0ffe6;
+  padding: 12px 20px;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+  transition: 0.4s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 50%;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+#contact button:hover {
+  background-color: #a0ffe6;
+  color: #000;
+  border: 1px solid #000;
+}
+.walk-in {
+  color: #000;
+  margin-top: 40px;
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+.nameMsg,
+.emailMsg {
+  color: red;
+  font-size: 25px;
+}
+.admin a
+{
+  background-color: #000;
+  text-align: center;
+  padding: 3%;
+}
+.footer 
+{
+  background: red;
+}
+@media only screen and (max-width: 600px) {
+  .name,
+  .email {
+    width: 100%;
+  }
+}

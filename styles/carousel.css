@@ -1,0 +1,51 @@
+#carouselExampleCaptions img {
+  height: 600px;
+}
+.carousel-inner h5 {
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+  transition: 0.5s;
+}
+
+.explore {
+  background: #ffffdd;
+  display: inline-block;
+  padding: 18px 41px;
+  font-size: 22px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.4s;
+}
+.explore:hover {
+  background: #21243d;
+}
+.explore:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+.explore a {
+  color: #000;
+}
+.indic {
+  width: 50px;
+  height: 120px;
+  position: absolute;
+  top: 40%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.indic:focus {
+  opacity: 0.5;
+}
+
+.indic:focus:hover {
+  opacity: 1;
+}
+.indic:hover {
+  background: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
